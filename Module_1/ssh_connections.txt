@@ -1,0 +1,11 @@
+# SSH Key Generation
+ssh-keygen -t rsa -b 4096 -C "myemail@example.com"  
+
+# Basic SSH Connection
+ssh -i /path/to/private_key.pem username@server_ip_or_dns
+
+# File Transfer with SCP 
+scp -i /path/to/private_key.pem /local/file.txt username@server:/remote/destination  
+
+# Local Port Forwarding 
+ssh -L 8888:remote_server:80 username@server_ip_or_dns

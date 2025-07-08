@@ -1,0 +1,110 @@
+ps
+ps -ef | grep python
+vim ~/src/pathToAPIKeys.sh 
+vim ~/.bashrx
+vim ~/.bashrc
+ls
+lsd
+ls ~
+cd ~/src
+ls
+mv apiKeys.sh ~/
+vim ~/.bashrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo $SHELL
+zsh
+echo $food
+bash
+echo $SHELL
+echo $food
+touch /Module_4/history.sh
+touch ./Module_4/history.sh
+cd Module_
+cd Module_4
+vim history.sh 
+chmod +x history.sh 
+./history.sh 
+cat my_history.txt 
+./history.sh 
+vim history.sh 
+MY_HISTORY=("cd ~" "ls -l")
+printf "%s\n" "${MY_HISTORY}"
+printf "%s\T" "${MY_HISTORY}"
+printf "%s\t" "${MY_HISTORY}"
+printf "%s\n" "${MY_HISTORY}"
+MY_HISTORY=("cd ~" "ls -l" "cat my_history.txt")
+printf "%s\n" "${MY_HISTORY}"
+printf "%s\n" "${MY_HISTORY[@]}"
+printf "%s\n" "${MY_HISTORY[@]}" >> my_history.txt
+mapfile -t MY_HISTORY < my_history.txt
+printf "%s\n" "${MY_HISTORY[@]}"
+mapfile -t MY_HISTORY < my_history.txt
+printf "%s\n" "${MY_HISTORY[@]}"
+echo $MY_HISTORY
+printf "%s\n" "${MY_HISTORY[@]}"
+MY_HISTORY=("cd ~" "ls -l" "cat my_history.txt")
+echo $MY_HISTORY
+echo $MY_HISTORY[@]
+printf "%s\n" "${MY_HISTORY[@]}"
+mapfile -t MY_HISTORY < my_history.txt
+printf "%s\n" "${MY_HISTORY[@]}"
+mapfile -t MY_HISTORY < my_history.txt
+printf "%s\n" "${MY_HISTORY[@]}"
+rm my_history.txt 
+vim history.sh 
+./history.sh 
+history
+history > my_history.txt 
+./history.sh 
+rm my_history.txt 
+./history.sh 
+rm my_history.txt 
+HISTORY_FILE="./my_history.txt"
+MY_HISTORY=()
+if [[ -f $HISTOR_FILE ]]; then mapfile -t MY_HISTORY < "${HISTORY_FILE}" fi;  fi
+if [[ -f $HISTOR_FILE ]]; then mapfile -t MY_HISTORY < "${HISTORY_FILE}"; fi
+echo "Previous commands"
+printf "%s\n" "${MY_HISTORY[@]}"
+echo ""
+read -p "Enter a new commnad" NEW_COMMAND
+./history.sh 
+history
+history --help
+history -a my_history_2.txt
+rm my_history_2.txt 
+rm my_history.txt
+vim history.sh 
+./history.sh 
+vim history.sh 
+./history.sh
+vim history.sh 
+history -a my_history.txt 
+vim history.sh 
+rm my_history.txt 
+./history.sh
+rm my_history.txt 
+./history.sh
+HISTORY_FILE="./my_history.txt"
+history -a "${HISTORY_FILE}"
+rm my_history.txt 
+history -a "${HISTORY_FILE}"
+rm my_history.txt 
+history
+history -a "${HISTORY_FILE}"
+history -a ./my_history2.txt
+history --help
+history -r ./my_history2.txt
+history -a ./my_history2.txt
+history -w ./my_history2.txt
+rm my_history.txt my_history2.txt 
+vim history.sh 
+./history.sh 
+vim history.sh 
+./cli.sh 
+printf "Hello\nWorld!"
+printf "Hello\nWorld\n"
+printf "Hello\nWorld\n" | grep "hello"
+printf "Hello\nWorld\n" | grep "Hello"
+history
+cat my_history.txt 
+history -w my_history.txt 
